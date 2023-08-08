@@ -1,0 +1,47 @@
+﻿20230804
+- Als je met deze oefening alles van rijksregisternummer wilt checken, dan ga je veel werk hebben
+
+- De lay-out van je formulier
+  - Niet overdrijven met de grootte van de button kleiner te maken.
+  - De standaard hoogte is echt een minimum
+  - Dit verandert natuurlijk niets aan de functionaliteit
+
+- Button1
+  - Zowel qua naam als qua tekst kun je dus niet slechter kiezen.
+  - Wat zou dit moeten doen?
+  - Op dit moment hangt er geen code aan :-)
+
+- Je hebt 2 events op de tekstbox gezet
+  - Validating: Wordt uitgevoerd wanneer de control (tekstbox) wordt gevalideerd
+    - Wanneer wordt dit getriggerd?
+      - Wanneer je de tekstbox verlaat, door bijvoorbeeld op de button te klikken
+    - Vergeet niet om de error (als die getoond wordt), ook weer weg te doen
+    - Dit kun je op 2 manieren
+      - Je zet een "else" tak bij de tekst in de validating event
+      - Je zet code in een andere event: Validated (dit is de actie wanneer de validatie goed is)
+  - KeyPress: Dit is wanneer er een toets wordt ingedrukt
+    - In je commentaar spreek je van "geen getal", geen backspace, geen delete
+      - Maar je test op 4 dingen
+        - char.IsDigit(e.KeyChar) --> is het een getal (duidelijk)
+        - e.KeyChar != '\b' --> Ik gok op backspace (iets minder duidelijk)
+          - Pas echter op: Deze toets moet ook werken als je al 15 tekens hebt ingetikt
+          - Ge moet het maar eens doen.
+          - Een fout rijksregisternummer intikken van 15 tekens, en dan 1 teken met de backspace proberen weg te doen
+          - Lukt je dit?
+        - Dezelfde opmerking voor "Delete", je moet dit kunnen doen als je al 15 tekens hebt ingetikt. 
+        - e.KeyChar != '\u007F' --> euh (helemaal niet duidelijk)
+        - e.KeyChar != '\u002D' --> euh
+        - e.KeyChar != '\u002E' --> euh
+      - Wees specifieker in je commentaar, jij weet het waarschijnlijk ook niet meer
+    - Maak je test ook simpelder
+      - Jij test dit
+        - Niet een getal, en niet delete, en niet ...
+      - Een opmerking uit de les logica
+        - Niet iets en niet iets anders, dat is hetzelfde als iets of iets anders
+    - Tip
+      - Hoe test je of een toets de backspace was?
+        e.KeyChar == Keys.Delete // Keys is een enumeratie van de mogelijke toetsen op een toetsenbord
+        // Dit zal je test (in de if) veel leesbaarder maken
+    - Gebruikte techniek is wel goed, nog een beetje finetunen.
+
+Ben weer in form he :)
