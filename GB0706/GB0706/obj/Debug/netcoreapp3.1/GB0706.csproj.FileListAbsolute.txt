@@ -1,0 +1,14 @@
+C:\Users\gille\source\repos\GB0706\GB0706\bin\Debug\netcoreapp3.1\GB0706.exe
+C:\Users\gille\source\repos\GB0706\GB0706\bin\Debug\netcoreapp3.1\GB0706.deps.json
+C:\Users\gille\source\repos\GB0706\GB0706\bin\Debug\netcoreapp3.1\GB0706.runtimeconfig.json
+C:\Users\gille\source\repos\GB0706\GB0706\bin\Debug\netcoreapp3.1\GB0706.runtimeconfig.dev.json
+C:\Users\gille\source\repos\GB0706\GB0706\bin\Debug\netcoreapp3.1\GB0706.dll
+C:\Users\gille\source\repos\GB0706\GB0706\bin\Debug\netcoreapp3.1\GB0706.pdb
+C:\Users\gille\source\repos\GB0706\GB0706\obj\Debug\netcoreapp3.1\GB0706.csproj.AssemblyReference.cache
+C:\Users\gille\source\repos\GB0706\GB0706\obj\Debug\netcoreapp3.1\GB0706.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gille\source\repos\GB0706\GB0706\obj\Debug\netcoreapp3.1\GB0706.AssemblyInfoInputs.cache
+C:\Users\gille\source\repos\GB0706\GB0706\obj\Debug\netcoreapp3.1\GB0706.AssemblyInfo.cs
+C:\Users\gille\source\repos\GB0706\GB0706\obj\Debug\netcoreapp3.1\GB0706.csproj.CoreCompileInputs.cache
+C:\Users\gille\source\repos\GB0706\GB0706\obj\Debug\netcoreapp3.1\GB0706.dll
+C:\Users\gille\source\repos\GB0706\GB0706\obj\Debug\netcoreapp3.1\GB0706.pdb
+C:\Users\gille\source\repos\GB0706\GB0706\obj\Debug\netcoreapp3.1\GB0706.genruntimeconfig.cache
